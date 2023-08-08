@@ -8,11 +8,11 @@ public class Amazon {
   @Test
   public void AmazonTest() throws InterruptedException {
 	  
-	  WebDriver driver =new ChromeDriver();
+	 WebDriver driver = new ChromeDriver();
 	  driver.get("https://www.amazon.com/");
 	  
 	  Thread.sleep(1000);
-	  
-	  
+	
+	  System.out.println("hi good evening");
   }
 }
